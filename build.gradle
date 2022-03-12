@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.5.0'
+    id 'org.springframework.boot' version '2.6.4'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
     id 'eclipse'
@@ -16,11 +16,11 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api'
     testImplementation 'org.junit.jupiter:junit-jupiter-engine'
 
-    testImplementation('org.springframework.boot:spring-boot-starter-test:2.6.2')
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.2'
-    implementation('org.springframework.boot:spring-boot-starter-mustache:2.6.2')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
 
-    implementation('org.springframework.boot:spring-boot-starter-data-jpa:2.6.2')
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation("org.mariadb.jdbc:mariadb-java-client")
     implementation('com.h2database:h2')
 
